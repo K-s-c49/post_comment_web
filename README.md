@@ -2,21 +2,38 @@
 
 A full-stack MERN (MongoDB, Express, React, Node.js) application for managing posts with images and comments. Fully configured for deployment on Vercel.
 
-## Prerequisites
+## 🚀 Deploy to Vercel in 13 Minutes!
+
+This project is **100% ready** for Vercel deployment with complete step-by-step guides!
+
+### Quick Start
+
+📖 **[DEPLOYMENT_STEPS.md](./DEPLOYMENT_STEPS.md)** ⭐ **START HERE!**
+- Complete visual step-by-step guide
+- MongoDB Atlas setup instructions
+- Environment variables configuration
+- Troubleshooting section
+
+### Additional Documentation
+
+- 🚀 [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) - 5-minute quick start
+- 📋 [DEPLOYMENT_CHECKLIST.md](./DEPLOYMENT_CHECKLIST.md) - Verification checklist
+- 🎯 [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) - Architecture & diagrams
+- 📘 [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) - Comprehensive guide
+
+### What You Need
+
+- ✅ GitHub account (you have this!)
+- ✅ [Vercel account](https://vercel.com/signup) (free)
+- ✅ [MongoDB Atlas account](https://www.mongodb.com/cloud/atlas/register) (free)
+
+**Deployment Time:** ~13 minutes | **Cost:** $0 (free tier)
+
+## Local Development Setup
+
+### Prerequisites
 - Node.js 18+ (recommended)
 - MongoDB (local or Atlas)
-
-## 🚀 Deployment
-
-This project is ready to deploy on Vercel! See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for complete deployment instructions.
-
-**Quick Deploy:**
-1. Push to GitHub
-2. Import to Vercel
-3. Add environment variables (MONGODB_URI, JWT_SECRET)
-4. Deploy!
-
-## Setup
 
 1) Install dependencies
 
