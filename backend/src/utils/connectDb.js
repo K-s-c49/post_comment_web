@@ -9,6 +9,11 @@ export async function connectDb(mongoUri) {
     throw err;
   }
 
+  // In serverless environments, check if already connected
+  if (mongoose.connection.readyState === 1) {
+    return;
+  }
+
   mongoose.set('strictQuery', true);
   await mongoose.connect(mongoUri);
 }
