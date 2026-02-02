@@ -36,9 +36,7 @@ mongodb+srv://myuser:mypassword@cluster0.xxxxx.mongodb.net/post_comment_manager?
 
 ### Option A: Deploy with Vercel Button (Fastest)
 
-Click this button to deploy:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/K-s-c49/post_comment_web)
+Click the Deploy button in Vercel and import your GitHub repository.
 
 ### Option B: Manual Import
 

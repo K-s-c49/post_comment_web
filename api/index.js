@@ -38,15 +38,9 @@ app.use((err, req, res, next) => {
   res.status(status).json({ error: message });
 });
 
-// Database connection (cached for serverless)
-let dbConnected = false;
-
 async function handler(req, res) {
-  // Connect to database if not already connected
-  if (!dbConnected) {
-    await connectDb(process.env.MONGODB_URI);
-    dbConnected = true;
-  }
+  // Connect to database (connectDb.js handles connection caching via mongoose.connection.readyState)
+  await connectDb(process.env.MONGODB_URI);
   
   // Handle the request with Express
   return app(req, res);
