@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.local
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local
+*.log
+.DS_Store
+.git
+.github
+README.md
+backend/node_modules
+frontend/node_modules
